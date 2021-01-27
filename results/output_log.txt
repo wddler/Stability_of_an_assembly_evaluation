@@ -1,0 +1,63 @@
+Case 1
+Bodies in this case are:
+Body id, center of mass x, center of mass y, mass
+1 25 35 2
+2 66 42 5
+Contacts in this case are:
+Body id1, body id2, x, y, normal, mu
+1 0 0 0 1.5707963267948966 0.1
+1 2 60 60 3.141592653589793 0.5
+2 0 60 0 1.5707963267948966 0.5
+2 0 72 0 1.5707963267948966 0.5
+The assembly collapsed
+
+
+Case 2
+Bodies in this case are:
+Body id, center of mass x, center of mass y, mass
+1 25 35 2
+2 66 42 10
+Contacts in this case are:
+Body id1, body id2, x, y, normal, mu
+1 0 0 0 1.5707963267948966 0.5
+1 2 60 60 3.141592653589793 0.5
+2 0 60 0 1.5707963267948966 0.5
+2 0 72 0 1.5707963267948966 0.5
+The assembly stands
+Coefficients:  [15.538  3.351  6.093  0.    12.658 14.762 37.613 47.696  1.     1.   ]
+
+
+Case 3
+Bodies in this case are:
+Body id, center of mass x, center of mass y, mass
+1 25 35 2
+2 66 42 5
+3 66 90 5
+Contacts in this case are:
+Body id1, body id2, x, y, normal, mu
+1 0 0 0 1.5707963267948966 0.4
+1 2 60 60 3.141592653589793 0.5
+2 0 60 0 1.5707963267948966 0.5
+2 0 72 0 1.5707963267948966 0.5
+2 3 60 84 -1.5707963267948966 0.5
+2 3 72 84 -1.5707963267948966 0.5
+The assembly collapsed
+
+
+Case 4
+Bodies in this case are:
+Body id, center of mass x, center of mass y, mass
+1 25 35 2
+2 66 42 5
+3 66 90 5
+Contacts in this case are:
+Body id1, body id2, x, y, normal, mu
+1 0 0 0 1.5707963267948966 0.5
+1 2 60 60 3.141592653589793 0.5
+2 0 60 0 1.5707963267948966 0.5
+2 0 72 0 1.5707963267948966 0.5
+2 3 60 84 -1.5707963267948966 0.5
+2 3 72 84 -1.5707963267948966 0.5
+The assembly stands
+Coefficients:  [15.538  3.351  6.093  0.    12.587 14.833 37.684 47.625 13.71  13.71
+ 13.71  13.71   1.     1.     1.   ]
