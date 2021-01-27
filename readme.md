@@ -78,6 +78,6 @@ Coefficients:  [15.538  3.351  6.093  0.    12.587 14.833 37.684 47.625 13.71  1
  
 ### Case 4 explanation
 ![Case 4 explanation1](results/Forces_Assembly_2_Custom.png)
- 
-** sum of vector forces is equal to external forces **
+
+**sum of vector forces is equal to external forces**
 ![Case 4 explanation2](results/Explanation_Assembly_2_Custom.png)
